@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "UPDATE admin SET value=? WHERE id=2",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "7acc930d053ff656c83b08b5d7e975f4723bfd2d53b7bb4e1447f1f3f7e2b1e9"
+}

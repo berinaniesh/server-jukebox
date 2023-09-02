@@ -1,0 +1,25 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT song FROM deflist ORDER BY RAND() LIMIT 1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "song",
+        "type_info": {
+          "type": "VarString",
+          "flags": "NOT_NULL | NO_DEFAULT_VALUE",
+          "char_set": 224,
+          "max_size": 1000
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "ad9754abb788ddc2cadc74116a5bc25fbbdd0b9e845fd2c4cbe0954ac906aa1f"
+}

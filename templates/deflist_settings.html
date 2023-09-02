@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block content %}
+<div style="display: flex; justify-content: center">
+    <h1>Server JukeBox</h1>
+</div>
+<h3>Current status: </h3>
+<h6>{{ current_status }}</h6>
+
+<form method="post" action="/d444620c-88dc-43f7-99dd-5f7c470755a5">
+    <h4>Change Setting</h4>
+    <input type="radio" id="true" name="value" value="true">
+    <label for="true">True (Use default list when song count is low) </label><br>
+    <input type="radio" id="false" name="value" value="false">
+    <label for="false">False (Don't use default list)</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<a href="/">Go back</a>
+
+{% endblock %}

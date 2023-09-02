@@ -1,0 +1,12 @@
+[Unit]
+Description="Server Jukebox"
+After=mariadb.service
+
+[Service]
+WorkingDirectory=/data/code/server-jukebox
+ExecStart=/usr/local/bin/server-jukebox
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

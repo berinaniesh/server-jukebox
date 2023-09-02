@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "INSERT INTO pqueue (uuid, song) VALUES (?, ?)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "dc194a798abcdfd609bf43dd3b5a8fa8396c258c02529fc17a7c031c468af837"
+}

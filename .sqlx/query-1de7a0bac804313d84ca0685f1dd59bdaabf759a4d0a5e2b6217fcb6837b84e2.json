@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "DELETE FROM dqueue WHERE song=?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "1de7a0bac804313d84ca0685f1dd59bdaabf759a4d0a5e2b6217fcb6837b84e2"
+}

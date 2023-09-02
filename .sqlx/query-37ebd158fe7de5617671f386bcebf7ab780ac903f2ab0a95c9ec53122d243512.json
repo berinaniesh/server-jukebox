@@ -1,0 +1,36 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT song, uuid FROM pqueue ORDER BY id LIMIT 1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "song",
+        "type_info": {
+          "type": "VarString",
+          "flags": "NOT_NULL | NO_DEFAULT_VALUE",
+          "char_set": 224,
+          "max_size": 1000
+        }
+      },
+      {
+        "ordinal": 1,
+        "name": "uuid",
+        "type_info": {
+          "type": "VarString",
+          "flags": "NOT_NULL | NO_DEFAULT_VALUE",
+          "char_set": 224,
+          "max_size": 200
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      false
+    ]
+  },
+  "hash": "37ebd158fe7de5617671f386bcebf7ab780ac903f2ab0a95c9ec53122d243512"
+}

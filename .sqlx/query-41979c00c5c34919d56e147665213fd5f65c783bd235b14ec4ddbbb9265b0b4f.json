@@ -1,0 +1,25 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT song FROM dqueue ORDER BY id LIMIT 1",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "song",
+        "type_info": {
+          "type": "VarString",
+          "flags": "NOT_NULL | NO_DEFAULT_VALUE",
+          "char_set": 224,
+          "max_size": 1000
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "41979c00c5c34919d56e147665213fd5f65c783bd235b14ec4ddbbb9265b0b4f"
+}

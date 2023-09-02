@@ -1,0 +1,25 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT value FROM admin WHERE id=2",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "value",
+        "type_info": {
+          "type": "VarString",
+          "flags": "",
+          "char_set": 224,
+          "max_size": 400
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      true
+    ]
+  },
+  "hash": "bea3e3d3b1aa2414c7c2b547c4de790feabf76db11f0fcff680627bc75a6b416"
+}

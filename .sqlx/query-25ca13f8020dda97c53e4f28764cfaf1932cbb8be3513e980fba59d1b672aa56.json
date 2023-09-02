@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "DELETE FROM pqueue WHERE song=? ORDER BY id LIMIT 1",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "25ca13f8020dda97c53e4f28764cfaf1932cbb8be3513e980fba59d1b672aa56"
+}

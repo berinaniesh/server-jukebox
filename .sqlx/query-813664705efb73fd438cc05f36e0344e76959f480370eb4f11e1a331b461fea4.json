@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "DELETE FROM songs WHERE song=?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "813664705efb73fd438cc05f36e0344e76959f480370eb4f11e1a331b461fea4"
+}

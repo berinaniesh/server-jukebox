@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block content %}
+<div style="display: flex; justify-content: center">
+<h1>Server JukeBox</h1>
+</div>
+<h3>Admin Login Page</h3>
+<form method="post" action="/admin">
+  <label for="password">Enter the admin password</label><br />
+  <input type="password" id="password" name="password" required autofocus/>
+  <input class="submit" type="submit" value="Submit" />
+</form>
+{% endblock %}

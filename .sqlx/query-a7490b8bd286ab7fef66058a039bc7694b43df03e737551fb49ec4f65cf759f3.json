@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "INSERT into log (song, ip) VALUES (?, ?)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "a7490b8bd286ab7fef66058a039bc7694b43df03e737551fb49ec4f65cf759f3"
+}

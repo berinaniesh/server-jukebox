@@ -1,0 +1,25 @@
+{
+  "db_name": "MySQL",
+  "query": "SELECT song FROM songs ORDER BY id",
+  "describe": {
+    "columns": [
+      {
+        "ordinal": 0,
+        "name": "song",
+        "type_info": {
+          "type": "VarString",
+          "flags": "NOT_NULL | NO_DEFAULT_VALUE",
+          "char_set": 224,
+          "max_size": 1000
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "08af2bc6c98c5b3b64aa38bc9d0e16acce587a8c17d061afba6a8e81bdc13aff"
+}

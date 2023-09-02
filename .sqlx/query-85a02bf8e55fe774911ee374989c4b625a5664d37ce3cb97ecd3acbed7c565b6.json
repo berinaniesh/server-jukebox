@@ -1,0 +1,12 @@
+{
+  "db_name": "MySQL",
+  "query": "INSERT INTO dqueue (song) VALUES (?)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "85a02bf8e55fe774911ee374989c4b625a5664d37ce3cb97ecd3acbed7c565b6"
+}

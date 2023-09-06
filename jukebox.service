@@ -1,6 +1,6 @@
 [Unit]
 Description="Server Jukebox"
-After=mariadb.service
+After=network-online.target
 
 [Service]
 WorkingDirectory=/data/code/server-jukebox

@@ -1,8 +1,8 @@
-/* Used to determine to play or not, default = play at working days, play = play always, pause = don't play */
+/* Used to determine to play or not, default = play at preset times (always), play = play always, pause = don't play */
 INSERT INTO `admin` VALUES
 (1,'play');
 
-/* Used to determine if default list should be used*/
+/* Used to determine if default list is used*/
 INSERT INTO `admin` VALUES
 (2, 'false');
 

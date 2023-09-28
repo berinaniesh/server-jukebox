@@ -21,6 +21,7 @@ CREATE TABLE `log` (
   `id` int NOT NULL AUTO_INCREMENT,
   `song` varchar(250) NOT NULL,
   `ip` varchar(20) NOT NULL,
+  `log` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 );
 
